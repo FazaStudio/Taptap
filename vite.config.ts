@@ -10,9 +10,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    outDir: "build",  // Ubah ini jika ingin output ke folder 'build' (defaultnya 'dist')
-  },
   // server: {
   //   proxy: {
   //     "/api": {
